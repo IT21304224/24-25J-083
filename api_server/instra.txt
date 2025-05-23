@@ -1,0 +1,21 @@
+Create the virtual environment:
+	python3 -m venv venv
+Activate the virtual environment:
+venv\Scripts\activate
+
+Installing Dependencies from requirements.txt:
+	pip install -r requirements.txt
+Verifying the Installation:
+pip list
+
+Install Dependencies:
+	pip install fastapi uvicorn mediapipe opencv-python-headless scikit-learn python-multipart
+
+to save all the dependencies including defaults :
+
+	pip freeze --all > requirements.txt
+
+to save current install dependencies:
+	
+	pip freeze > requirements.txt
+
